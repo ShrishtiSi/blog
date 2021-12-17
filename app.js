@@ -17,7 +17,7 @@ let port = 2300 | process.env.port;
 app.use("/images", express.static(__dirname + '/public/image'));
 
 //my routes
-app.use('/index', require("./routes/routes"));
+app.use('/', require("./routes/routes"));
 
 
 // start server 
