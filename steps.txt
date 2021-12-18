@@ -1,14 +1,14 @@
 NOTE: Whenever you will pull this code or download this code from GitHub then you have to give a command in your termincal i.e. "npm i"
 
 Step 1: Blog name = www.glimmering.com                          => Shrishti                         Done
-step 2: logo => GB                                              => Mehak                            
+step 2: logo => GM                                              => Mehak                            
 step 3: creater header and footer                               => Pawan & Shrishti         
 step 4: create partial for header and footer                    => Pawan
-step 5: error 404                                               => Pawan    
-step 6: about us	                                            => Mehak 
+step 5: error 404                                               => Pawan                            Done
+step 6: about us	                                            => Mehak    
 step 7: contact us 	                                            => Shrishti
 step 8: blog page	                                            => Mehak & Shrishti & Pawan
-step 9: Login and registeration form	                        => Pawan & Shrishti
+step 9: Login and registeration form	                        => Pawan & Shrishti                 
 step 10: add social media icons and copyright                   => Pawan
 step 11: each page have a different title, meta and og tag      => Shrishti
 step 12 : Home Page                                             => Pawan & Shrishti & Mehak

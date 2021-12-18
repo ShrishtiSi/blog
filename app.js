@@ -14,14 +14,15 @@ app.set('view engine', 'ejs');
 //assign port number
 let port = 2100 | process.env.port;
 
+//
 app.use("/images", express.static(__dirname + '/public/image'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/form.css'));
 
 //my routes
-app.use('/', require("./routes/routes"));
-
+app.use('/user', require("./routes/userroutes.js"));
+app.use('/', require("./routes/mainpageroutes.js"));
 
 // start server 
 http.createServer(app).listen(port, () => {
-    console.log("portnumber=" + port);
-})
+    console.log("port number =" + port);
+});
