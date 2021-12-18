@@ -12,9 +12,10 @@ app.set('view engine', 'ejs');
 
 
 //assign port number
-let port = 2300 | process.env.port;
+let port = 2100 | process.env.port;
 
 app.use("/images", express.static(__dirname + '/public/image'));
+app.use("/CSS", express.static(__dirname + '/Public/CSS/form.css'));
 
 //my routes
 app.use('/', require("./routes/routes"));
