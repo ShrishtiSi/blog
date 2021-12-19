@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 let port = 2100 | process.env.port;
 
 //
-app.use("/images", express.static(__dirname + '/public/image'));
+app.use("/images", express.static(__dirname + '/Public/images'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/form.css'));
 
 //my routes
