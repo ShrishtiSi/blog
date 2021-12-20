@@ -130,7 +130,7 @@
 }
 
 
-/* To make responsive layout for login  */
+/* To make responsive layout */
 
 @media screen and (max-width:600px) and (min-width:500px) {
     .login {
