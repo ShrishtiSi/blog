@@ -1,18 +1,105 @@
-.udiv {
-    margin-top: 8rem;
-    margin-left: 25rem;
+* {
+    box-sizing: border-box;
 }
+
+
+/* Required margin for form content */
+
+.req {
+    text-align: center;
+    margin: 1rem;
+}
+
+
+/* CSS for login  */
+
+.login {
+    margin-top: 12%;
+    margin-left: 35%;
+    background-color: #f7d5da;
+    border: 1rem groove;
+    font-weight: bold;
+}
+
+.lbody {
+    background-image: url('/images/login-bgimg.jpg');
+}
+
+
+/* CSS for Signup */
+
+.sbody {
+    background-image: url('/images/sign_img.jpg');
+}
+
+.signup {
+    margin-top: 10%;
+    border: .5rem groove;
+    background-color: rgb(240, 193, 240);
+    margin-left: 32%;
+}
+
+
+/* CSS for heading of  */
 
 .heading1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+/* CSS for Login and signup form */
+
 .uform {
     margin: 2rem;
 }
 
-.req {
-    text-align: center;
-    margin: 1rem;
+
+/* Row */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* CSS for Column */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.main {
+    width: 75%;
+}
+
+
+/* To make responsive layout for login  */
+
+@media screen and (max-width:600px) {
+    .login {
+        margin-top: 12%;
+        margin-left: 20%;
+    }
+    .column {
+        width: 100%;
+    }
+    .column.side,
+    .column.main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .signup {
+        margin-top: 8%;
+        margin-left: 32%;
+    }
 }

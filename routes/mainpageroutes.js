@@ -11,6 +11,11 @@ router.get('/index', (req, res) => {
     res.status(200).render('../views/mainpages/index.ejs');
 });
 
+//Route from Login to blog page
+router.get('/userpage', (req, res) => {
+    res.status(200).render('../views/mainpages/home.ejs');
+});
+
 //Route to Contact us
 router.get('/Contactus', (req, res) => {
     res.status(200).render('../views/mainpages/contact.ejs');

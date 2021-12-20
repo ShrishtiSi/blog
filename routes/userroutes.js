@@ -12,6 +12,7 @@ router.get('/signup', (req, res) => {
     res.status(200).render('../views/user/signup.ejs');
 });
 
+
 //Route to User profile page
 router.get('/profile', (req, res) => {
     res.status(200).render('../views/user/userprofile.ejs');
