@@ -80,6 +80,9 @@
     width: 75%;
 }
 
+
+/* Mehak 's CSS */
+
 .a {
     background-color: black;
     width: 100%;
@@ -129,7 +132,7 @@
 
 /* To make responsive layout for login  */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width:500px) {
     .login {
         margin-top: 12%;
         margin-left: 20%;
