@@ -3,6 +3,13 @@
 }
 
 
+/* CSS for title */
+
+.glim {
+    margin-right: 20%;
+}
+
+
 /* Required margin for form content */
 
 .req {
@@ -40,6 +47,13 @@
 }
 
 
+/* CSS for main content of index page */
+
+.maincontent {
+    background-color: snow;
+}
+
+
 /* CSS for heading of  */
 
 .heading1 {
@@ -55,49 +69,44 @@
 }
 
 
-/* Row */
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* CSS for Column */
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-}
-
-.column.side {
-    width: 100%;
-}
-
-.column.main {
-    width: 100%;
-}
-
-
-/* CSS for Section of Home Page */
-
-.sidesection {
-    width: 25%;
-}
-
-.mainsection {
-    width: 75%;
-}
-
-
 /* CSS for Cards */
 
 .card {
     border-radius: 1rem;
     border-color: black;
     margin: 1%;
+    padding: 1%;
+}
+
+
+/* CSS for row */
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* CSS for Column index page */
+
+.column {
+    float: right;
+    width: 70%;
+}
+
+.sidecol {
+    float: left;
+    width: 25%;
+}
+
+
+/* CSS for blog size of blog page */
+
+.blogsize {
+    width: 75%;
+    margin-left: 18%;
+    margin-right: 2%;
 }
 
 
