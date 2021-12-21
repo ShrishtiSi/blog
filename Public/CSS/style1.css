@@ -73,11 +73,31 @@
 }
 
 .column.side {
-    width: 25%;
+    width: 100%;
 }
 
 .column.main {
+    width: 100%;
+}
+
+
+/* CSS for Section of Home Page */
+
+.sidesection {
+    width: 25%;
+}
+
+.mainsection {
     width: 75%;
+}
+
+
+/* CSS for Cards */
+
+.card {
+    border-radius: 1rem;
+    border-color: black;
+    margin: 1%;
 }
 
 
