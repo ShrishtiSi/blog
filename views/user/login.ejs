@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glimmering - Login</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS">
-    <style>
-        body {
-            background-color: lavender;
-        }
-    </style>
-</head>
-
-<body class="lbody">
+<%- include("../partial/header") %>
     <div>
-        <div class="card login col-md-8 col-sm-6" style="width: 30%;">
+
+        <div class="card login col-md-8 col-sm-6">
             <h1 class=" heading1 req ">Login</h1>
             <form class="row g-3 uform ">
                 <div class="col-12 ">
@@ -29,17 +12,16 @@
                     <label for="inputPassword4 " class="form-label ">Password</label>
                     <input type="password " class="form-control " id="inputPassword4 " placeholder="Password ">
                 </div>
-                <div class="col-12 req ">
+                <div class="col-12 req anchorformat">
                     <a href="/user/signup ">Sign up?</a>
                     <a href="# " target="_blank ">Forget Password?</a>
                     <a href="# " target="_blank ">Need Help?</a>
                 </div>
                 <div class="col-12 req ">
-                    <a href="/userpage"> <button type="button" class="btn btn-primary ">Sign in</button></a>
+                    <a href="/userpage"> <button type="button" class="btn btncolor ">Sign in</button></a>
                 </div>
             </form>
         </div>
-    </div>
-</body>
 
-</html>
+    </div>
+    <%- include("../partial/footer") %>

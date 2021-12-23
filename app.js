@@ -17,6 +17,7 @@ let port = 2100 | process.env.port;
 //
 app.use("/images", express.static(__dirname + '/Public/images'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/style1.css'));
+app.use("/CSS", express.static(__dirname + '/Public/CSS/style2.css'));
 
 //my routes
 app.use('/user', require("./routes/userroutes.js"));
