@@ -1,0 +1,56 @@
+/* Mehak 's CSS */
+
+
+/* class for about us heading at the top*/
+
+.a {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+    color: pink;
+}
+
+
+/* class for decorating headings written in the middle of the page */
+
+.i {
+    background-color: palevioletred;
+    font-size: large;
+    color: red;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+/* css for first paragraph which written at the top */
+
+.u {
+    font-size: medium;
+    color: cyan;
+    font-weight: bold;
+}
+
+.b {
+    background-color: pink;
+    border-radius: 20%;
+    color: purple;
+    padding: 2%;
+}
+
+.c {
+    border-radius: 25%;
+}
+
+.h {
+    color: deeppink;
+    font-weight: bold;
+}
+
+.d {
+    font-size: large;
+    color: darkorange;
+    text-align: center;
+}
