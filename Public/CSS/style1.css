@@ -6,7 +6,7 @@
 /* CSS for title */
 
 .glim {
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 
@@ -35,6 +35,21 @@ a {
 
 
 /* CSS for button */
+
+.btncolor1 {
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;
+    height: 4em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.btncolor1:hover {
+    color: black;
+    background-color: white;
+    border-color: violet;
+}
 
 .btncolor {
     background-color: purple;
