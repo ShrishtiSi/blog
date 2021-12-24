@@ -33,6 +33,11 @@ a {
     box-shadow: 0 0 1 1 violet;
 }
 
+.bg-color {
+    background-color: white;
+    opacity: 2vh;
+}
+
 
 /* CSS for button */
 
