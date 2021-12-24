@@ -6,7 +6,82 @@
 /* CSS for title */
 
 .glim {
-    margin-right: 20%;
+    margin-right: 10%;
+}
+
+
+/* CSS for Navbar */
+
+.navcolor {
+    background-color: #f7d5da;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: none;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+
+/* CSS for shadow */
+
+.shadow {
+    box-shadow: 0 0 1 1 violet;
+}
+
+
+/* CSS for button */
+
+.btncolor1 {
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;
+    height: 4em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.btncolor1:hover {
+    color: black;
+    background-color: white;
+    border-color: violet;
+}
+
+.btncolor {
+    background-color: purple;
+    color: white;
+    border-radius: 1rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.btncolor:hover {
+    color: black;
+    background-color: white;
+    border-color: violet;
+}
+
+.btn-outline {
+    /* background-color: white;
+    border: 1px solid violet; */
+    /* outline-color: violet; */
+    transition-duration: 1s;
+}
+
+.btnoutline:hover {
+    background-color: violet;
+    color: white;
+}
+
+
+/* CSS for body */
+
+.bodyallpages {
+    background-color: #f7d5da;
 }
 
 
@@ -21,29 +96,20 @@
 /* CSS for login  */
 
 .login {
-    margin-top: 12%;
-    margin-left: 35%;
-    background-color: #f7d5da;
-    border: 1rem groove;
-    font-weight: bold;
-}
-
-.lbody {
     background-image: url('/images/login-bgimg.jpg');
+    font-weight: bold;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
 /* CSS for Signup */
 
-.sbody {
-    background-image: url('/images/sign_img.jpg');
-}
-
 .signup {
     margin-top: 10%;
-    border: .5rem groove;
-    background-color: rgb(240, 193, 240);
+    background-image: url('/images/sign_img.jpg');
     margin-left: 32%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -110,60 +176,22 @@
 }
 
 
+/* CSS for background color */
+
+.bgfooter {
+    background: lavender;
+}
+
+.bgmcolor {
+    background-color: #f7d5da;
+}
+
+
 /* css for contact page's form */
 
 .contact {
     background-color: black;
     opacity: 0.3;
-}
-
-
-/* Mehak 's CSS */
-
-.a {
-    background-color: black;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-family: cursive;
-    font-size: x-large;
-    color: pink;
-}
-
-.i {
-    background-color: palevioletred;
-    font-size: large;
-    color: red;
-    font-weight: bold;
-    font-family: monospace;
-}
-
-.u {
-    font-size: medium;
-    color: cyan;
-    font-weight: bold;
-}
-
-.b {
-    background-color: pink;
-    border-radius: 20%;
-    color: purple;
-    padding: 2%;
-}
-
-.c {
-    border-radius: 25%;
-}
-
-.h {
-    color: deeppink;
-    font-weight: bold;
-}
-
-.d {
-    font-size: large;
-    color: darkorange;
-    text-align: center;
 }
 
 

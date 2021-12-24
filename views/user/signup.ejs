@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glimmering - Sign up</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS">
-    <style>
-        body {
-            background-color: lavender;
-        }
-        
-        .uform {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-    </style>
-</head>
-
-<body class="sbody">
+<%- include("../partial/header") %>
     <div class="container-fluid">
-        <div class="card signup col-md-8 col-sm-6" style="width: 40%;">
+        <div class="card signup col-md-8 col-sm-6">
             <h1 class="heading1 req">Sign up</h1>
             <form class="row g-3 uform">
                 <div class="col-md-6">
@@ -45,11 +23,9 @@
                     <p>Already have an account? <a href="/user/login">Sign in</a></p>
                 </div>
                 <div class="col-12 req">
-                    <a href="/changepassword"><button type="submit" class="btn btn-primary">Sign up</button></a>
+                    <a href="/changepassword"><button type="submit" class="btn btncolor">Sign up</button></a>
                 </div>
             </form>
         </div>
     </div>
-</body>
-
-</html>
+    <%- include("../partial/footer") %>
