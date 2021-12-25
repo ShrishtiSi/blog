@@ -6,7 +6,7 @@
 /* CSS for title */
 
 .glim {
-    margin-right: 10%;
+    padding-right: 2vh;
 }
 
 
@@ -146,6 +146,12 @@ a {
     border-color: black;
     margin: 1%;
     padding: 1%;
+}
+
+.border {
+    background-color: transparent;
+    border-radius: 1vh;
+    border: solid black;
 }
 
 
