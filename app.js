@@ -2,7 +2,7 @@
 let express = require('express');
 let http = require('http');
 let ejs = require('ejs');
-
+let connectDB = require("./config/connection");
 
 //app
 let app = express();
@@ -14,11 +14,13 @@ app.set('view engine', 'ejs');
 //assign port number
 let port = 2100 | process.env.port;
 
-//
+//all public folder
 app.use("/images", express.static(__dirname + '/Public/images'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/style1.css'));
 app.use("/CSS1", express.static(__dirname + '/Public/CSS/style2.css'));
 app.use("/CSS1", express.static(__dirname + '/Public/CSS/style3.css'));
+
+
 //my routes
 app.use('/user', require("./routes/userroutes.js"));
 app.use('/', require("./routes/mainpageroutes.js"));
