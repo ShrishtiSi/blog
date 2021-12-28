@@ -17,9 +17,9 @@
 /* class for decorating headings written in the middle of the page */
 
 .i {
-    background-color: palevioletred;
+    background-color: #5C1746;
     font-size: large;
-    color: red;
+    color: #cbd46d;
     font-weight: bold;
     font-family: monospace;
 }
@@ -35,9 +35,10 @@
 }
 
 .b {
-    background-color: pink;
+    background-color: #3a5778;
+    border-color: #9a3c90;
     border-radius: 20%;
-    color: purple;
+    color: pink;
     padding: 2%;
 }
 
