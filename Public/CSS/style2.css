@@ -29,9 +29,11 @@
 
 .u {
     font-size: medium;
-    color: cyan;
+    color: white;
     font-weight: bold;
+    text-shadow: 2px 2px black;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 .b {
