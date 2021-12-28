@@ -29,9 +29,8 @@
 
 .u {
     font-size: medium;
-    color: white;
+    color: black;
     font-weight: bold;
-    text-shadow: 2px 2px black;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
 }
