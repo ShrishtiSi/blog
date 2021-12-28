@@ -14,6 +14,9 @@ app.set('view engine', 'ejs');
 //assign port number
 let port = 2100 | process.env.port;
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 //all public folder
 app.use("/images", express.static(__dirname + '/Public/images'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/style1.css'));
