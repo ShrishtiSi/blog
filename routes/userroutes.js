@@ -34,15 +34,27 @@ router.post("/SaveUser", (req, res) => {
         Upass: req.body.uphone,
 
     };
-    var newUserRecord = User(data);
-    newUserRecord.save((err, saved) => {
+    User.findOne({ Uemail: req.body.uemail }, (err, found) => {
         if (err) {
-            console.log("Ero" + err);
+            req.flash("error", "Some error at server");
+            res.status(200).redirect("/user/signup");
+        } else if (found) {
+            req.flash("error", "Email id Alredy there");
             res.status(200).redirect("/user/signup");
         } else {
-            res.status(200).redirect("/user/login");
+            var newUserRecord = User(data);
+            newUserRecord.save((err, saved) => {
+                if (err) {
+                    req.flash("error", "Some error at server while saving data");
+                    res.status(200).redirect("/user/signup");
+                } else {
+                    req.flash("success", "User Registered");
+                    res.status(200).redirect("/user/login");
+                }
+            });
         }
     });
+
 
 });
 

@@ -11,4 +11,12 @@ step 8: blog page	                                            => Mehak & Shrisht
 step 9: Login and registeration form	                        => Pawan & Shrishti                 Done               
 step 10: add social media icons and copyright                   => Pawan                            Done
 step 11: each page have a different title, meta and og tag      => Shrishti
-step 12 : Home Page                                             => Pawan & Shrishti & Mehak
+step 12 : Home Page   
+                                          => Pawan & Shrishti & Mehak
+
+
+
+                                          ===================
+1) login
+2) error of password and phone
+3) desing correct
