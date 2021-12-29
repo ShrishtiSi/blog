@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/images", express.static(__dirname + '/Public/images'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/style1.css'));
 app.use("/CSS1", express.static(__dirname + '/Public/CSS/style2.css'));
-app.use("/CSS1", express.static(__dirname + '/Public/CSS/style3.css'));
+app.use("/CSS2", express.static(__dirname + '/Public/CSS/style3.css'));
 
 
 //my routes

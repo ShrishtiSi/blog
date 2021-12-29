@@ -61,6 +61,7 @@ a {
     border: .5vh violet solid;
     border-radius: 1rem;
     padding-top: 1px;
+    size: 1vw auto;
     padding-bottom: 1px;
 }
 
