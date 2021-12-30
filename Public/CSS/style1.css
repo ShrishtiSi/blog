@@ -63,6 +63,7 @@ a {
     padding-top: 1px;
     size: 1vw auto;
     padding-bottom: 1px;
+    margin: auto 1em;
 }
 
 .btncolor:hover {
@@ -144,8 +145,8 @@ a {
 .card {
     border-radius: 1rem;
     border-color: black;
-    margin: 1%;
-    padding: 1%;
+    margin: 1vh auto;
+    padding: 1em;
 }
 
 .border {

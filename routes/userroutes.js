@@ -32,7 +32,7 @@ router.post("/SaveUser", (req, res) => {
         Ulname: req.body.ulname,
         Uemail: req.body.uemail,
         Upass: req.body.uphone,
-
+        Upassword: req.body.Upassword
     };
     User.findOne({ Uemail: req.body.uemail }, (err, found) => {
         if (err) {

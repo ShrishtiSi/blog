@@ -3,8 +3,8 @@
 }
 
 .contactform {
-    margin: 1vh 36vh;
-    width: 69vw;
+    margin: 1vh auto;
+    width: 22vw;
 }
 
 .contactform div {
@@ -16,10 +16,21 @@
 
 .contactform div input {
     padding: 3px;
+    border-radius: 1em;
+    width: 17em;
 }
 
-.btn {
-    width: 66px;
-    padding: 4px px;
-    margin: auto;
+.btn-sm {
+    width: 4rem;
+    margin: auto 7em;
+    border-radius: 1em;
+    background-color: purple;
+    color: white;
+    border-color: lavender;
+}
+
+.btn-sm:hover {
+    background-color: aliceblue;
+    border-color: purple;
+    color: black;
 }

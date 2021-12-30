@@ -1,9 +1,10 @@
 <%- include("../partial/header") %>
-    <h1>Contact Us</h1>
     <div class="contactform">
         <form class=" card" action="/sendemail" method="post">
 
-            <h2> ASK YOUR QUERY:</h2>
+            <center>
+                <h2> Ask your query</h2>
+            </center>
 
             <div class="formItem">
                 <label for="username">Name</label>
@@ -25,10 +26,9 @@
                 <input type="text" name="message" placeholder="Enter Message ">
             </div>
             <div class="btn">
-                <button class="btncolor" type="button"> Send</button>
+                <button class="btn-sm" type="button"> Send</button>
             </div>
         </form>
-
     </div>
 
     <div>
@@ -38,17 +38,7 @@
                 <br> <br> &nbsp; &nbsp; Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per <br> &nbsp; &nbsp; conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.
             </h4>
         </p>
-        <div class="card sidecol right-card  u-container-layout u-valign-middle u-container-layout-3">
-            <h6 class="u-text u-text-default u-text-1">call us</h6>
-            <p class="u-text u-text-default u-text-2">1 (234) 567-891<br>1 (234) 987-654
-            </p>
-            <h6 class="u-text u-text-default u-text-3">location</h6>
-            <p class="u-text u-text-default u-text-4">121 Rock Sreet, 21 Avenue,<br>New York, NY 92103-9000
-            </p>
-            <h6 class="u-text u-text-default u-text-5">business hours</h6>
-            <p class="u-text u-text-default u-text-6">Mon – Fri …… 10 am – 8 pm<br>Sat, Sun ....… Closed
-            </p>
-        </div>
+
     </div>
     <br>
     <%- include("../partial/footer") %>
