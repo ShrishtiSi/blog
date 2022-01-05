@@ -143,6 +143,12 @@ a {
 
 /* CSS for Cards */
 
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .card {
     border-radius: 1rem;
     border-color: black;

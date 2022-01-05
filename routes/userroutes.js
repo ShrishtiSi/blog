@@ -31,8 +31,8 @@ router.post("/SaveUser", (req, res) => {
         Ufname: req.body.ufname,
         Ulname: req.body.ulname,
         Uemail: req.body.uemail,
-        Upass: req.body.uphone,
-        Upassword: req.body.Upassword
+        Uphone: req.body.uphone,
+        Upass: req.body.upass
     };
     User.findOne({ Uemail: req.body.uemail }, (err, found) => {
         if (err) {
@@ -54,6 +54,20 @@ router.post("/SaveUser", (req, res) => {
             });
         }
     });
+});
+
+
+//Route to check wether user exist or not
+router.post("/login", (req, res) => {
+    // console.log(req.body);
+    User.findOne({ Uemail: req.body.uid, Upass: req.body.upass }, (err, data) => {
+        if (err) {
+            console.log(err)
+        } else {
+            console.log(data);
+        }
+    });
+    res.status("200").send("hi.....................");
 });
 
 

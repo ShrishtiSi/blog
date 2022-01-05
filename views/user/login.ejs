@@ -2,14 +2,14 @@
     <div>
         <div class="card login col-md-8 col-sm-6" style="margin: 1em auto;">
             <h1 class=" heading1 req ">Login</h1>
-            <form class="row g-3 uform">
+            <form class="row g-3 uform" method="post" action="/user/login">
                 <div class="col-12">
                     <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email " class="form-control " id="inputEmail4 " placeholder="@gmail.com ">
+                    <input type="email " name="uid" class="form-control " id="inputEmail4 " placeholder="@gmail.com ">
                 </div>
                 <div class="col-12">
                     <label for="inputPassword4" class="form-label">Password</label>
-                    <input type="password " class="form-control " id="inputPassword4 " placeholder="Password ">
+                    <input type="password " name="upass" class="form-control " id="inputPassword4 " placeholder="Password ">
                 </div>
                 <div class="col-12 req anchorformat">
                     <a href="/user/signup ">Sign up?</a>
@@ -17,7 +17,7 @@
                     <a href="# " target="_blank ">Need Help?</a>
                 </div>
                 <div class="col-12 req">
-                    <a href="/userpage"> <button type="button" class="btn btncolor ">Sign in</button></a>
+                    <button type="submit" class="btn btncolor ">Sign in</button>
                 </div>
             </form>
         </div>
