@@ -13,7 +13,7 @@
 /* CSS for Navbar */
 
 .navcolor {
-    background-color: #f7d5da;
+    background-color: lavender;
 }
 
 a {
@@ -44,9 +44,10 @@ a {
 .btncolor1 {
     background-color: purple;
     color: white;
+    margin: auto 0rem;
     border-radius: 1rem;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 4px;
+    padding-bottom: 3px;
 }
 
 .btncolor1:hover {

@@ -21,19 +21,12 @@
 <body class="bodyallpages">
 
     <header>
-        <nav class="navbar navbar-light navcolor">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/images/logo.jfif" alt="glimmering_logo" width="20%" class="d-inline-block align-text-top"> </a>
-                <img src="/images/glimmering.PNG" alt="Glimmering" width="10%" class="glim">
-                <a href="/user/login"><button type="button" class="btn btncolor1 position-relative"
-                            style="width: 100%;"> Login/Signup</button></a>
-            </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-color ">
+        <nav class="navbar navbar-expand-lg navbar-light navcolor">
             <div class="container-fluid dwidth">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                <img src="/images/glimmering.PNG" alt="Glimmering" width="150px" class="glim">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
@@ -64,12 +57,14 @@
                                     <a class="nav-link" href="/Aboutus">About us</a>
                                     <% } %>
                         </li>
-
                         <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2" style="border-radius: 1em;" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btncolor" type="submit">Search</button>
                         </form>
                     </ul>
+                </div>
+                <div>
+                    <a href="/user/login"><button type="button" class="btn btncolor1 position-relative"> Login/Signup</button></a>
                 </div>
             </div>
         </nav>
