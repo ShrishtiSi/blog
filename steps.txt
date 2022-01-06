@@ -17,3 +17,8 @@ step 12 : Home Page                                             => Pawan & Shris
 1) login
 2) error of password and phone
 3) desing correct
+
+===========
+
+Blog insert to data base
+User info not email but all update user 

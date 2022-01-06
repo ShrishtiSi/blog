@@ -41,6 +41,12 @@ app.use("/CSS2", express.static(__dirname + '/Public/CSS/style3.css'));
 app.use((req, res, next) => {
     res.locals.success = req.flash("success");
     res.locals.error = req.flash("error");
+    var token = req.cookies.token;
+    if (!token) {
+        User = false;
+    } else {
+        User = true;
+    }
     next();
 });
 
