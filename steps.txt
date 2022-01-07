@@ -20,5 +20,5 @@ step 12 : Home Page                                             => Pawan & Shris
 
 ===========
 
-Blog insert to data base
-User info not email but all update user 
+1) Blog insert to data base
+2) User info not email but all update user 
