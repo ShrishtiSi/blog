@@ -19,5 +19,7 @@ NOTE: Whenever you will pull this code or download this code from GitHub then yo
 3) desing correct                   Done
 
 ===========
-1) Blog insert to data base                     
+1) Blog insert to data base
+a) creat model                      
 2) User info not email but all update user      
+
