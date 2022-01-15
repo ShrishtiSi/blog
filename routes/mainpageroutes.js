@@ -28,7 +28,7 @@ router.get('/Aboutus', (req, res) => {
 
 //Route to blog
 router.get('/blog', (req, res) => {
-    res.status(200).render('../views/mainpages/blog.ejs', { title: "Blog - Glimmering" });
+    res.status(200).render('../views/Blog/blog.ejs', { title: "Blog - Glimmering" });
 });
 
 //Route to 404 Page
