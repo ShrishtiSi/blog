@@ -33,27 +33,59 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+    padding: 0% 2%;
 }
+
+
+/*css for paragraph in the boxes*/
 
 .b {
     background-color: #3a5778;
     border-color: #9a3c90;
     border-radius: 20%;
     color: pink;
-    padding: 2%;
+    padding: 3%;
 }
 
+
+/*css for picture border curves*/
+
 .c {
-    border-radius: 25%;
+    border-radius: 35%;
 }
+
+
+/*css for vision and mission headings*/
 
 .h {
     color: deeppink;
     font-weight: bold;
 }
 
+
+/*css for horizontal strips */
+
 .d {
     font-size: large;
     color: #5C1746;
     text-align: center;
+}
+
+
+/*css for card in the top*/
+
+.tcard {
+    width: 95%;
+    height: fit-content;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:900px) and (min-width:150px) {
+    .tcard {
+        width: fit-content;
+        height: fit-content
+    }
+    .u {
+        margin-bottom: auto;
+    }
 }
