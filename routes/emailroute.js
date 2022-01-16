@@ -6,7 +6,6 @@ let ejs = require("ejs");
 router.use(express.json());
 router.use(express.urlencoded({ extended: false }));
 
-
 //route for sending emails
 router.post("/sendemail", (req, res) => {
     console.log(req.body);

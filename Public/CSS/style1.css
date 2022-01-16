@@ -198,6 +198,8 @@ a {
 
 .bgfooter {
     background: lavender;
+    position: relative;
+    margin-bottom: 0%;
 }
 
 .bgmcolor {
