@@ -40,6 +40,10 @@ router.get('/profile', chekusernotexitcs, (req, res) => {
     res.status(200).render('../views/user/userprofile.ejs', { title: " Profile - Glimmering" });
 });
 
+router.get('/profile', chekusernotexitcs, (req, res) => {
+    res.status(200).render('../views/user/profile.ejs', { title: " Profile - Glimmering" });
+});
+
 //Route to change password page
 router.get('/changepassword', (req, res) => {
     res.status(200).render('../views/user/changepassword.ejs', { title: "Change Password - Glimmering" });

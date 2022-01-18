@@ -1,13 +1,35 @@
-<%- include('./partial/header.ejs') %>
+<%- include("../partial/header.ejs") %>
     <div class="container">
         <p>
-            <form action="">
-                <input type="text" placeholder="Blog title">
-                <input type="text" placeholder="">
-                <input type="text" placeholder="">
-                <input type="text" placeholder="">
-                <input type="image"><label for="">Upload your image</label>
-            </form>
+            <div class="container ">
+                <form action="">
+                    <div class="container field-margin ">
+                        <input type="text" name="btitle" placeholder="Blog title">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="text" name="bname" placeholder="Blog Name">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="file" name="bimage" value="upload your image" placeholder="upload your image"><label for="">Upload your image</label>
+                    </div>
+                    <div class="container field-margin">
+                        <input type="text" name="bcontent" placeholder="Content: ">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="text" name="bfootnote" placeholder="Blog Foot Note: ">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="text" name="btag" placeholder="Blog Tags">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="text" name="bstatus" placeholder="Blog Status">
+                    </div>
+                    <div class="container field-margin">
+                        <input type="submit" name="bsubmit" value="Submit">
+                    </div>
+
+                </form>
+            </div>
         </p>
     </div>
-    <%- include('./partial/footer.ejs') %>
+    <%- include("../partial/footer.ejs") %>

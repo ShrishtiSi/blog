@@ -30,6 +30,9 @@ router.get('/Aboutus', (req, res) => {
 router.get('/blog', (req, res) => {
     res.status(200).render('../views/Blog/blog.ejs', { title: "Blog - Glimmering" });
 });
+router.get('/Addnewblog', (req, res) => {
+    res.status(200).render('../views/Blog/new_blog.ejs', { title: "Add New Blog - Glimmering" });
+});
 
 //Route to 404 Page
 router.get('/*', (req, res) => {
