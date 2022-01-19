@@ -15,9 +15,9 @@
 }
 
 .contactform div input {
-    padding: 3px;
+    padding: 7px;
     border-radius: 1em;
-    width: 17em;
+    width: 19vw;
 }
 
 .btn-sm {
@@ -33,4 +33,11 @@
     background-color: aliceblue;
     border-color: purple;
     color: black;
+}
+
+.canvascontact {
+    margin-bottom: -20%;
+    width: 29vw;
+    height: 50vh;
+    margin-left: -1em;
 }

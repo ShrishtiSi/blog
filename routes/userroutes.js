@@ -49,11 +49,6 @@ router.get('/changepassword', (req, res) => {
     res.status(200).render('../views/user/changepassword.ejs', { title: "Change Password - Glimmering" });
 });
 
-router.post("/show", (req, res) => {
-    let data {
-
-    }
-})
 
 //Route to save user details
 router.post("/SaveUser", (req, res) => {
