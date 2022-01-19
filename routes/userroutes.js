@@ -100,7 +100,7 @@ router.post("/login", (req, res) => {
                 ID: data._id
             };
             res.cookie("token", userdata, { maxAge: 60 * 60 * 100000 });
-            res.status(200).render('../views/mainpages/index.ejs', { title: "Home - Glimmering " });
+            res.status(200).redirect("/");
         }
     });
 });
