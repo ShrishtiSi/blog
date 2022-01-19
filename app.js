@@ -57,5 +57,6 @@ app.use('/', require("./routes/mainpageroutes.js"));
 
 // start server 
 http.createServer(app).listen(port, () => {
+    console.log(" i am here dont worry ");
     console.log("port number =" + port);
 });
