@@ -21,13 +21,13 @@ var Blog = mongoose.Schema({
         type: String
     },
     BlogCreatedBy: {
-        type: [{ emailid: String, UserID: String }]
+        type: String
     },
     BlogScour: {
-        type: [{ name: String }]
+        type: String
     },
     BlogTags: {
-        type: [{ name: String }]
+        type: String
     },
     BlogStatus: {
         type: String,
