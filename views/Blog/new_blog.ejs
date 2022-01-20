@@ -2,32 +2,34 @@
     <div class="container">
         <p>
             <div class="container ">
-                <form action="/blog/saveblog" method="post">
+                <form action="/blog/saveblog" method="post" enctype="multipart/form-data">
                     <div class="container field-margin ">
-                        <input type="text" name="btitle" placeholder="Blog title">
+                        <input type="text" name="btitle" class="tncts" placeholder="Blog title">
                     </div>
                     <div class="container field-margin">
-                        <input type="text" name="bname" placeholder="Blog Name">
+                        <input type="text" name="bname" class="tncts" placeholder="Blog Name">
                     </div>
                     <div class="container field-margin">
                         <input type="file" name="bimage" value="upload your image" placeholder="upload your image"><label for="">Upload your image</label>
                     </div>
                     <div class="container field-margin">
-                        <textarea type="text" name="bcontent" placeholder="Content: "></textarea>
+                        <textarea type="text" class="textarea" name="bcontent" placeholder="Content: "></textarea>
                     </div>
                     <div class="container field-margin">
-                        <input type="text" name="bfootnote" placeholder="Blog Foot Note: ">
+                        <textarea type="text" name="bfootnote" class="textarea" placeholder="Blog Foot Note: "></textarea>
                     </div>
                     <div class="container field-margin">
-                        <input type="text" name="btag" placeholder="Blog Tags">
+                        <input type="text" name="bcreatedby" class="tncts" placeholder="Blog Created by: ">
                     </div>
                     <div class="container field-margin">
-                        <input type="text" name="bstatus" placeholder="Blog Status">
+                        <input type="text" name="btag" class="tncts" placeholder="Blog Tags">
                     </div>
                     <div class="container field-margin">
-                        <input type="submit" name="bsubmit" value="Submit">
+                        <input type="text" name="bstatus" class="tncts" placeholder="Blog Status">
                     </div>
-
+                    <div class="container field-margin">
+                        <input type="submit" class="btn-sm" name="bsubmit" value="Submit">
+                    </div>
                 </form>
             </div>
         </p>

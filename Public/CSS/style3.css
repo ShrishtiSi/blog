@@ -22,11 +22,15 @@
 
 .btn-sm {
     width: 4rem;
-    margin: auto 7em;
+    margin: auto;
     border-radius: 1em;
     background-color: purple;
     color: white;
     border-color: lavender;
+}
+
+.alignform {
+    margin-left: 1%;
 }
 
 .btn-sm:hover {

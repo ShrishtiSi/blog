@@ -48,6 +48,29 @@ a {
 
 /* CSS for button */
 
+.bttn {
+    width: 12vw;
+    height: 6vh;
+    background-color: darkgray;
+    border: 2px double darkblue;
+    margin-left: 75%;
+    border-radius: 10px 0px;
+}
+
+.bttn a {
+    color: white;
+}
+
+.bttn:hover {
+    background-color: aliceblue;
+    border-color: purple;
+    color: black;
+}
+
+.bttn a:hover {
+    color: black;
+}
+
 .btncolor1 {
     background-color: purple;
     color: white;
@@ -218,6 +241,19 @@ a {
 .contact {
     background-color: black;
     opacity: 0.3;
+}
+
+
+/* CSS for textarea */
+
+.textarea {
+    width: 79vw;
+    height: 34vh;
+}
+
+.tncts {
+    width: 44vw;
+    height: 12vh;
 }
 
 
