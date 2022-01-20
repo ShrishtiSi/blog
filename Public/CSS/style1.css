@@ -52,19 +52,17 @@ a {
     width: 12vw;
     height: 6vh;
     background-color: darkgray;
-    border: 2px double darkblue;
-    margin-left: 75%;
+    border: outset darkblue;
+    margin-left: 70%;
     border-radius: 10px 0px;
-}
-
-.bttn a {
-    color: white;
 }
 
 .bttn:hover {
     background-color: aliceblue;
     border-color: purple;
     color: black;
+    border: inset purple;
+    font-weight: bold;
 }
 
 .bttn a:hover {
@@ -247,8 +245,9 @@ a {
 /* CSS for textarea */
 
 .textarea {
-    width: 79vw;
-    height: 34vh;
+    width: 67vw;
+    height: 21vh;
+    padding: 1em;
 }
 
 .tncts {
