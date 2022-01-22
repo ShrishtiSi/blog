@@ -27,7 +27,7 @@ router.post("/saveblog", (req, res) => {
     addblog.save((err, savedata) => {
         if (err) {
             req.flash("error", "Some error  while saving data");
-            res.status("200"), redirect("/blog/addnewblog");
+            res.status("200").redirect("/blog/addnewblog");
         } else {
             req.flash("success", "Data Saved");
             res.status(200).redirect("/");

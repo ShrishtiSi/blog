@@ -64,14 +64,22 @@
                 </div>
                 <div>
                     <% if(User==true) { %>
-                        <div class="dropdown">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 5em;">User</button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="/user/profile">Profile</a></li>
+                                <li><a class="dropdown-item" href="/Blog/Addnewblog">Add Blog</a></li>
+                                <li><a class="dropdown-item" href="/user/LogOut">Sign out</a></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">User</button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a class="dropdown-item" href="/user/profile">Profile</a></li>
                                 <li><a class="dropdown-item" href="/Blog/Addnewblog">Add Blog</a></li>
                                 <li><a class="dropdown-item" href="/user/LogOut">Sign out</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                         <% } if(User==false) { %>
                             <a href="/user/login"><button type="button" class="btn btncolor1 position-relative">
                                         Login/Signup</button></a>
