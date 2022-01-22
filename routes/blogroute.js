@@ -6,7 +6,7 @@ const multer = require('multer')
 const upload = multer({ dest: 'uploads/' })
 
 const cpUpload = upload.fields([{ name: 'bimage', maxCount: 1 }, { name: 'gallery', maxCount: 8 }])
-app.post('/Public/images/blogimages/', cpUpload, function(req, res, next) {
+router.post('/Public/images/blogimages/', cpUpload, function(req, res, next) {
     // req.files is an object (String -> Array) where fieldname is the key, and the value is array of files
     //
     // e.g.
