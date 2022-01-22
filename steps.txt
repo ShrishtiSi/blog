@@ -23,3 +23,6 @@ NOTE: Whenever you will pull this code or download this code from GitHub then yo
 a) creat model                      
 2) User info not email but all update user      
 
+step 1 upload image and rename
+step 2 save to blogimages forlder
+step 3 save that unq name to database 

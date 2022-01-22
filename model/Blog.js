@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 
 var Blog = mongoose.Schema({
     BlogTitle: {
-        type: string
+        type: String
     },
     BlogCreatedDate: {
         type: Date,
@@ -15,22 +15,22 @@ var Blog = mongoose.Schema({
         type: String
     },
     BlogContent: {
-        type: string
+        type: String
     },
     BlogFootNote: {
         type: String
     },
     BlogCreatedBy: {
-        type: [{ emailid: string, UserID: string }]
+        type: String
     },
     BlogScour: {
-        type: [{ name: string }]
+        type: String
     },
     BlogTags: {
-        type: [{ name: string }]
+        type: String
     },
     BlogStatus: {
-        type: string,
+        type: String,
         default: "Working"
     }
 });

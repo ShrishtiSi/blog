@@ -1,13 +1,12 @@
 //All require module
 var express = require("express");
 var router = express.Router();
+var { v4: uuid4 } = require("uuid");
 
 //Route to Home page
-router.get('/', (req, res) => {
-    res.status(200).render('../views/mainpages/index.ejs', { title: "Home - Glimmering" });
-});
-
-router.get('/index', (req, res) => {
+router.get(['/', '/index'], (req, res) => {
+    // var uqid = uuid4();
+    // console.log(uqid);
     res.status(200).render('../views/mainpages/index.ejs', { title: "Home - Glimmering" });
 });
 
@@ -24,14 +23,6 @@ router.get('/Contactus', (req, res) => {
 //Route to About us
 router.get('/Aboutus', (req, res) => {
     res.status(200).render('../views/mainpages/about.ejs', { title: "About us - Glimmering" });
-});
-
-//Route to blog
-router.get('/blog', (req, res) => {
-    res.status(200).render('../views/Blog/blog.ejs', { title: "Blog - Glimmering" });
-});
-router.get('/Addnewblog', (req, res) => {
-    res.status(200).render('../views/Blog/new_blog.ejs', { title: "Add New Blog - Glimmering" });
 });
 
 //Route to 404 Page

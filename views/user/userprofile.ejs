@@ -6,34 +6,24 @@
                 <h1 class="heading1 req">User Profile</h1>
                 <button class=""><a href="/views/user/profile.ejs">Edit</a></button>
             </div>
-            <form class="row g-3 uform">
+            <form class="row g-3 uform" action="show">
                 <div class="col-md-6">
-                    <label for="inputEmail" class="form-label">Email</label>
-                    <input type="email" name="uemail" class="form-control" id="inputEmail">
+                    <label for="inputEmail" class="form-label">Email: <%= data.Uemail %> </label>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputnumber" class="form-label">Contact No</label>
-                    <input type="text" name="uphone" class="form-control" id="inputnumber">
+                    <label for="inputnumber" class="form-label">Contact No: <%= data.Uphone %></label>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputfirstname" class="form-label">First Name</label>
-                    <input type="text" name="Fname" class="form-control" id="inputfirstname">
+                    <label for="inputfirstname" class="form-label">First Name: <%= data.Ufname %></label>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputlastname" class="form-label">Last Name</label>
-                    <input type="text" name="Lname" class="form-control" id="inputlastname">
+                    <label for="inputlastname" class="form-label">Last Name: <%= data.Ulname %></label>
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address</label>
-                    <input type="text" name="Address" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <label for="inputAddress" class="form-label">Address: <%= data.Uaddress %></label>
                 </div>
                 <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" name="City" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" name="zip" class="form-control" id="inputZip">
+                    <label for="inputCity" class="form-label">City: <%= data.Ucity %></label>
                 </div>
             </form>
         </div>

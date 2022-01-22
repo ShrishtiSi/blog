@@ -52,6 +52,7 @@ app.use((req, res, next) => {
 
 //my routes
 app.use('/user', require("./routes/userroutes.js"));
+app.use('/blog', require("./routes/blogroute.js"));
 app.use('/', require("./routes/mainpageroutes.js"));
 
 // start server 

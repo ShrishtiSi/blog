@@ -48,6 +48,27 @@ a {
 
 /* CSS for button */
 
+.bttn {
+    width: 12vw;
+    height: 6vh;
+    background-color: darkgray;
+    border: outset darkblue;
+    margin-left: 70%;
+    border-radius: 10px 0px;
+}
+
+.bttn:hover {
+    background-color: aliceblue;
+    border-color: purple;
+    color: black;
+    border: inset purple;
+    font-weight: bold;
+}
+
+.bttn a:hover {
+    color: black;
+}
+
 .btncolor1 {
     background-color: purple;
     color: white;
@@ -157,7 +178,6 @@ a {
 }
 
 .card {
-    border-radius: 1rem;
     border-color: black;
     margin: 1vh auto;
     padding: 1em;
@@ -219,6 +239,20 @@ a {
 .contact {
     background-color: black;
     opacity: 0.3;
+}
+
+
+/* CSS for textarea */
+
+.textarea {
+    width: 67vw;
+    height: 21vh;
+    padding: 1em;
+}
+
+.tncts {
+    width: 44vw;
+    height: 12vh;
 }
 
 
