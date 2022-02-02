@@ -8,10 +8,7 @@ var upload = multer({ dest: "uploads/" });
 
 
 //Upload file using multer
-router.post("/saveblog", upload.single('bname'), (req, res) => {
-    req.bname;
-    req.body.bname;
-});
+router.post()
 
 //Route to blog
 router.get(['/', "/index"], (req, res) => {
