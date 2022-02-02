@@ -1,8 +1,8 @@
 <%- include("../partial/header.ejs") %>
     <div class="container">
         <p>
-            <div class="container ">
-                <form action="/blog/saveblog" method="post">
+            <div class="container">
+                <form action="/blog/saveblog" method="post" enctype="multipart/form-data">
                     <div class="container field-margin ">
                         <input type="text" name="btitle" class="blogformitem" placeholder="Blog title">
                     </div>
@@ -23,9 +23,6 @@
                     </div>
                     <div class="container field-margin">
                         <input type="text" name="btag" class="blogformitem" placeholder="Blog Tags">
-                    </div>
-                    <div class="container field-margin">
-                        <input type="text" name="bstatus" class="blogformitem" placeholder="Blog Status">
                     </div>
                     <div class="container field-margin">
                         <input type="submit" class="btn-sm" name="bsubmit" value="Submit">

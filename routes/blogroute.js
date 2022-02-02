@@ -2,6 +2,13 @@
 var express = require("express");
 var router = express.Router();
 var Blog = require("../model/Blog");
+const multer = require("multer");
+var uid = require("uuid");
+var upload = multer({ dest: "uploads/" });
+
+
+//Upload file using multer
+router.post()
 
 //Route to blog
 router.get(['/', "/index"], (req, res) => {
