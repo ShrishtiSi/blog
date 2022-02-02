@@ -1,8 +1,8 @@
 <%- include("../partial/header.ejs") %>
     <div class="container">
         <p>
-            <div class="container ">
-                <form action="/blog/saveblog" method="post">
+            <div class="container">
+                <form action="/blog/saveblog" method="post" enctype="multipart/form-data">
                     <div class="container field-margin ">
                         <input type="text" name="btitle" class="blogformitem" placeholder="Blog title">
                     </div>
@@ -10,7 +10,7 @@
                         <input type="text" name="bname" class="blogformitem" placeholder="Blog Name">
                     </div>
                     <div class="container field-margin">
-                        <input type="file" name="bimage" value="upload your image" placeholder="upload your image"><label for="">Upload your image</label>
+                        <input type="file" name="bimage" value="upload your image" placeholder="upload your image">
                     </div>
                     <div class="container field-margin">
                         <textarea type="text" class="blogformtextarea" name="bcontent" placeholder="Content: "></textarea>
