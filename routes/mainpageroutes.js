@@ -2,12 +2,20 @@
 var express = require("express");
 var router = express.Router();
 var { v4: uuid4 } = require("uuid");
+var BlogData = require("../controller/blog");
+var blogData = new BlogData();
 
 //Route to Home page
 router.get(['/', '/index'], (req, res) => {
-    // var uqid = uuid4();
-    // console.log(uqid);
-    res.status(200).render('../views/mainpages/index.ejs', { title: "Home - Glimmering" });
+    blogData.getAllBlogs((blogs) => {
+        if (blogs.Status == "err") {
+            res.status(404).render('../views/mainpages/error404.ejs', { title: "Error 404" });
+        } else {
+            // console.log(blogs.data);
+            res.status(200).render('../views/mainpages/index.ejs', { title: "Home - Glimmering", data: blogs.data });
+        }
+    });
+
 });
 
 //Route from Login to blog page

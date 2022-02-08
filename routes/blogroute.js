@@ -4,6 +4,8 @@ var router = express.Router();
 var Blog = require("../model/Blog");
 const multer = require("multer");
 var uid = require("uuid");
+var BlogData = require("../controller/blog");
+var blogData = new BlogData();
 var newFileName;
 
 // for body parser and json data
@@ -59,6 +61,19 @@ router.post("/saveblog", upload.array('bimage'), (req, res) => {
             res.status(200).redirect("/Blog/Addnewblog");
         }
     });
+});
+
+router.get("/:id", (req, res) => {
+
+    blogData.getBlogById(req.params.id, (blog) => {
+
+        if (blog.Status == "err") {
+            res.status(404).redirect("/error404");
+        } else {
+            res.status(200).render('../views/Blog/blog.ejs', { title: "Blog - Glimmering", data: blog.data });
+        }
+    });
+
 });
 
 module.exports = router;

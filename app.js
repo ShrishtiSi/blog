@@ -31,6 +31,7 @@ app.use(session({
 
 //all public folder
 app.use("/images", express.static(__dirname + '/Public/images'));
+app.use("/upimages", express.static(__dirname + '/Public/uploads'));
 app.use("/CSS", express.static(__dirname + '/Public/CSS/style1.css'));
 app.use("/CSS1", express.static(__dirname + '/Public/CSS/style2.css'));
 app.use("/CSS2", express.static(__dirname + '/Public/CSS/style3.css'));
